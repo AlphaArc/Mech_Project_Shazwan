@@ -38,7 +38,7 @@ int main()
 		{
 			conti = 0;
 		}
-	} while (conti == 1)
+	} while (conti == 1);
 	cout << "Program will now exit ";
 	return 0;
 }
