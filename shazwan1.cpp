@@ -12,7 +12,7 @@ float AdiaPoly(int);
 
 int main()
 {
-	bool continue=0;
+	bool conti=0;
 	int ch1, ch2;
 	char cont;
 	float RESULT;
@@ -32,13 +32,13 @@ int main()
 		cin >> cont;
 		if (cont=='Y'||cont=='y')
 		{
-			continue = 1;
+			conti = 1;
 		}
 		else
 		{
-			continue = 0;
+			conti = 0;
 		}
-	} while (continue == 1)
+	} while (conti == 1)
 	cout << "Program will now exit ";
 	return 0;
 }
