@@ -17,7 +17,7 @@ int main()
 	char cont;
 	float RESULT;
 	do {
-		cout << "Enter Type Of Process \n1.Isobaric \n2.Isochronic \n3.Isothermal \n4.Abiabatic or Polytrophic";
+		cout << "Enter Type Of Process \n1.Isobaric \n2.Isochronic \n3.Isothermal \n4.Abiabatic or Polytrophic\n";
 		cin >> ch1;
 		cout << "Enter \n1.Work Done\n2.Missing Variable calculation:";
 		cin >> ch2;
